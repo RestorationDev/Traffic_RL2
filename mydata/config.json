@@ -1,12 +1,12 @@
 {
   "interval": 1.0,
   "seed": 0,
-  "roadnetFile": "roadnet.json",
-  "flowFile": "flow.json",
-  "rlTrafficLight": false,
+  "roadnetFile": "./mydata/roadnet.json",
+  "flowFile": "./mydata/flow.json",
+  "rlTrafficLight": true,
   "laneChange": false,
   "saveReplay": true,
-  "roadnetLogFile": "replay_roadnet.json",
-  "replayLogFile": "replay.txt",
-  "dir": "./mydata"
+  "roadnetLogFile": "./mydata/replay_roadnet.json",
+  "replayLogFile": "./mydata/replay.txt",
+  "dir": "./"
 }
