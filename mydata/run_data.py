@@ -1,9 +1,7 @@
 import cityflow
 
+# See mydata_1x3/run_data_1x3.py — set_replay_file("/app/...") breaks logging (dir + path).
 engine = cityflow.Engine("/app/mydata/config.json", thread_num=1)
-
-engine.set_save_replay(True)
-engine.set_replay_file("/app/mydata/replay.txt")
 
 print("Starting simulation")
 for step in range(10000):

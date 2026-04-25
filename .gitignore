@@ -1,0 +1,16 @@
+*.pyc
+__pycache__/
+**/__pycache__/
+
+# Experiment artifacts / replays
+mydata/replay*.txt
+mydata/replays/
+mydata_1x3/replay.txt
+mydata_1x3/replay_ep*.txt
+mydata_1x3/replay_w*_ep*.txt
+mydata_1x3/VIEW_REPLAY.txt
+mydata_1x3/replay_offsets*.txt
+mydata_1x3/replay_roadnet*.json
+
+# Generated plots / images
+*.png

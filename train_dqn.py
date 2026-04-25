@@ -9,7 +9,7 @@ import time
 from models.dqn import DQN
 from envs.replay_buffer import ReplayBuffer
 
-def train_dqn(env, episodes=1, gamma=0.99, epsilon=0.1, batch_size=64):
+def train_dqn(env, episodes=100, gamma=0.99, epsilon=0.1, batch_size=64):
     intersection_id = env.intersection_ids[0]  # intersection 1
     state_dim = len(env.incoming_lanes[intersection_id])  # 8
     action_dim = 9
